@@ -6,7 +6,7 @@ const CatsContext = React.createContext()
 function CatsContextProvider(props) {
 const [allTheCatsInfo, setAllTheCatsInfo] = useState([])
 
-const baseUrl = "http://localhost:8000/cats"
+const baseUrl = "/cats"
   
   function getCats() {
     axios.get(baseUrl)
