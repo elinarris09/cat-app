@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.app {
+  border: 5px rgb(255, 255, 255) solid;
+  background-color: rgb(163, 172, 190);
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  justify-content: space-around;
+}
+.navbar {
+  background-color: rgb(127, 150, 176);
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin: 10px;
+}
+.cat-form {
+  margin: 20px;
+}
+
+hr {
+  color: rgb(45, 71, 93);
+  border: solid rgb(255, 255, 255) 1px;
+  margin: 20px;
+}
